@@ -1,0 +1,107 @@
+<style>
+    /* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Root */
+:root {
+  --bg-light: #F5F5FC;
+  --bg-dark: #35353C;
+  --bg-darker: #15151C;
+  --font-body: #55555C;
+  --shadow: #C5C5CC;
+}
+
+/* Demo related */
+.section-wrapper {
+  background: #FFF;
+  height: 100%;
+  padding: 10%;
+  font-family: "Inter", sans-serif;
+  color: var(--font-body);
+}
+
+.demo-title h1, .demo-title h6 {
+  color: var(--bg-darker);
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+.card {
+  background: var(--bg-light);
+  padding: 2.3rem;
+  border-radius: 2.7rem;
+}
+
+.card img {
+  border-radius: 2.3rem;
+  box-shadow: 0.1rem 0.7rem 1.3rem var(--shadow);
+}
+
+.card h5 {
+  color: var(--bg-dark);
+}
+
+.card p {
+  color: var(--font-body);
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.card .btn {
+  padding: 1.3rem 2.7rem;
+  line-height: normal;
+  background: var(--bg-dark);
+  border-radius: 1.7rem;
+  text-decoration: none;
+  color: #FFF;
+  box-shadow: 0.1rem 0.7rem 1.3rem var(--shadow);
+  transition: all 0.7s ease;
+}
+
+.card .btn:hover {
+  background: var(--bg-darker);
+  box-shadow: none;
+}
+
+/* Copyrights */
+.copy-rights {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+}
+
+.copy-rights a {
+  text-decoration: none;
+  color: var(--bg-darker);
+}
+
+</style>
+<div id="draggable-div-102" class="card draggable" style="width: 18rem;" draggable="true" data-type="div"
+   >
+<div class="section-wrapper">
+    <div class="demo-title">
+      <h6>Modern, Clean, Responsive, Beautiful &amp;</h6>
+      <h1>Minimal Style Flex Cards</h1>
+    </div>
+    <div class="flex-container">
+      <div class="card">
+        <img src="https://img.freepik.com/free-photo/adorable-baby-anime-dragon-illustration_23-2151117668.jpg?t=st=1710619863~exp=1710623463~hmac=879c41cd460efdada3c5c185b7e7615c343a50a498f02b18050947f6b032ca8f&w=1800" class="w-100 mb-4" />
+        <h5>Dragon Art</h5>
+        <p>Enjoy this clean styling.</p>
+        <a href="javascript:;" class="btn">Explore</a>
+      </div>
+      <!-- Repeat other cards here -->
+    </div>
+    <div class="copyrights">
+      <a href="https://taipaning.com/" target="_blank">introducing <strong>Taipaning</strong></a>
+    </div>
+  </div>
+  
+</div>

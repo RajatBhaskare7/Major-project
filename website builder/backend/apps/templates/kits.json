@@ -1,0 +1,14 @@
+{
+    "kits": {
+        "bs5": {
+            "meta": "info.json",
+            "description": "BS5 BASIC",
+            "demo": "https://getbootstrap.com/docs/5.3/components/alerts/"
+        },
+        "pixel": {
+            "meta": "info.json",
+            "description": "BS5 Kit from Themesberg",
+            "demo": "https://demo.themesberg.com/pixel-bootstrap-5-ui-kit/"
+        }
+    }
+}
